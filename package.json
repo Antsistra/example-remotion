@@ -1,0 +1,23 @@
+{
+  "name": "umah-tani-promo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "30s vertical promo motion graphics for Umah Tani, built with Remotion",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render UmahTaniPromo out/umah-tani-promo.mp4",
+    "still": "remotion still UmahTaniPromo --frame=450 out/still.png",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.539",
+    "@remotion/google-fonts": "4.0.539",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "typescript": "^5.6.3"
+  }
+}
